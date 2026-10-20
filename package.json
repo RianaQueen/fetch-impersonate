@@ -1,0 +1,31 @@
+{
+  "name": "fetch-impersonate",
+  "version": "1.0.0",
+  "description": "curl-impersonate with Fetch API-like wrapper",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RianaQueen/fetch-impersonate.git"
+  },
+  "keywords": [
+    "curl",
+    "curl-impersonate",
+    "fetch"
+  ],
+  "author": "RianaQueen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RianaQueen/fetch-impersonate/issues"
+  },
+  "homepage": "https://github.com/RianaQueen/fetch-impersonate#readme",
+  "dependencies": {
+    "form-data": "^4.0.5"
+  },
+  "type": "module",
+  "imports": {
+    "#utils/*": "./src/utils/*"
+  }
+}
